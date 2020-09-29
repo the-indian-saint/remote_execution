@@ -12,8 +12,8 @@
 
 '''
 
-servers = [{'ip':'10.20.12.08', 'username':'admin', 'password':'Admin@123', 'filename':'reaper'},
-           {'ip':'10.20.12.12', 'username':'admin', 'password':'Admin@123', 'filename':'reaper'},
-           {'ip':'10.20.12.21', 'username':'admin', 'password':'Admin@123', 'filename':'reaper'},
-           {'ip':'10.20.12.22', 'username':'admin', 'password':'Admin@123', 'filename':'reaper'},
+servers = [{'ip':'10.20.12.08', 'username':'admin', 'password':'******', 'filename':'reaper'},
+           {'ip':'10.20.12.12', 'username':'admin', 'password':'******', 'filename':'reaper'},
+           {'ip':'10.20.12.21', 'username':'admin', 'password':'******', 'filename':'reaper'},
+           {'ip':'10.20.12.22', 'username':'admin', 'password':'******', 'filename':'reaper'},
            ]
