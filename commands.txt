@@ -1,0 +1,10 @@
+Execute these commands and create a user on remote servers.
+
+useradd <username>                  -"Create a new user"
+passwd <username>                   -"Create a password for the user"
+mkhomedir_helper <username>         -"Create a home directory for the user"
+sudo usermod -aG sudo <username>    -"add user to sudo group"
+sudo visudo                         -"once file is open add '<username> ALL=(ALL) NOPASSWD:ALL' to the end of the file"
+sudo vi /etc/ssh/sshd_config        -"Set PubkeyAuthentication to no & add  <username> PasswordAuthentication yes at the end of the file"
+sudo systemctl restart sshd.service -"restart sshd service"
+
